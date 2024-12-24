@@ -196,14 +196,17 @@ countries = [
 # Q1. loop Through the countries and extract all the countries containing the word land.
 # Q1. Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
 for country in countries:
-  if country.endswith('land'):    # get countries ending with land
+  if "land" in country:    # get countries containing the word land
     print(country)
 
 # Finland
 # Iceland
 # Ireland
+# Marshall Islands
+# Netherlands
 # New Zealand
 # Poland
+# Solomon Islands
 # Swaziland
 # Switzerland
 # Thailand
